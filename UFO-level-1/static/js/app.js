@@ -31,7 +31,7 @@ function handleClick() {
     let filteredData = tableData;
 
     console.log(d3.select("#datetime"))
-    console.log(d3.select("#datetime").porperty("value"))
+    console.log(d3.select("#datetime").property("value"))
 
     //Check to see if a date was entered and filter the 
     //data using that date.
